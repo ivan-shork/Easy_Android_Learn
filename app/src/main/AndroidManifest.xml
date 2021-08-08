@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFirstAndroidApplication">
         <activity
-            android:name=".MainActivity"
+            android:name=".ActivityTwo"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityOne"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
