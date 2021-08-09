@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFirstAndroidApplication">
         <activity
+            android:name=".ListActivity"
+            android:exported="true" />
+        <activity
             android:name=".ActivityTwo"
             android:exported="true" />
         <activity

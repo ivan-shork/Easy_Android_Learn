@@ -35,7 +35,9 @@ public class ActivityOne extends AppCompatActivity implements View.OnClickListen
                 startActivity(i);
                 break;
             case R.id.button8:
-                Toast.makeText(ActivityOne.this,"我的被点击", Toast.LENGTH_SHORT).show();
+                Toast.makeText(ActivityOne.this,"跳转到电话列表", Toast.LENGTH_SHORT).show();
+                Intent listIndent = new Intent(ActivityOne.this, ListActivity.class);
+                startActivity(listIndent);
                 break;
             default:
                 throw new IllegalStateException("Unexpected value: " + view.getId());
